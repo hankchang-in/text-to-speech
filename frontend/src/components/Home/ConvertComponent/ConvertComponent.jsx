@@ -16,7 +16,7 @@ const ConvertComponent = () => {
   const [audioUrl , setAudioUrl] = useState('');
   const getVoicesAPI  = async () => { 
     try{
-      const data = await fetch('http://localhost:5000/api/getVoices');
+      const data = await fetch('https://magicvoice-mrmg.onrender.com/api/getVoices');
       const voices = await data.json(); 
       setVoices(voices)
     }catch(err){ 
@@ -54,7 +54,7 @@ const ConvertComponent = () => {
 
         }),
       }
-      const response = await fetch('http://localhost:5000/api/tts' , options)
+      const response = await fetch('https://magicvoice-mrmg.onrender.com/api/tts' , options)
       const data = await response.blob();
         // 🔹 Set Audio Source
         const url = URL.createObjectURL(data);
