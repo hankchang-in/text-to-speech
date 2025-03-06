@@ -2,8 +2,13 @@ const textToSpeech = require("@google-cloud/text-to-speech");
 const fs = require("fs");
 const util = require("util");
 
+const dotenv = require('dotenv')
+
+dotenv.config()
+const googleCredentials = JSON.parse(process.env.GOOGLE_API_CREDENTIALS)
+// console.log(process.env.GOOGLE_API_CREDENTIALS);
 const client = new textToSpeech.TextToSpeechClient({
-    keyFilename: "google-tts-key.json", // Path to service account JSON
+    credentials: googleCredentials, // Path to service account JSON
 });
 module.exports.audioGenerator = async (req, res) => {
    
