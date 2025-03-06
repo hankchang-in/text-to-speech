@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import './Home.css'
 import IntroPage from './Intro/IntroPage'
-import ConvertComponent from '../ConvertComponent/ConvertComponent'
+import ConvertComponent from './ConvertComponent/ConvertComponent'
 import About from '../About/About'
 const Home = () => {
   return (

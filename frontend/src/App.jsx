@@ -3,7 +3,7 @@ import './App.css'
 import {Routes , BrowserRouter, Route} from 'react-router-dom'
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
-import Product from './components/ConvertComponent/ConvertComponent.jsx'
+import Product from './components/Home/ConvertComponent/ConvertComponent.jsx'
 function App() {
   return (
     <BrowserRouter>

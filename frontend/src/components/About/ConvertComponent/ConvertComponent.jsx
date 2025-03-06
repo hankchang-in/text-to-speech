@@ -1,7 +1,7 @@
 import React, { use } from 'react'
 import './ConvertComponent.css'
 import { useState ,useRef , useEffect } from 'react'
-import Navbar from '../Home/Navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 const ConvertComponent = () => {
 
   // const textarea = document.getElementsByClassName("myTextarea");

@@ -5,7 +5,6 @@ const util = require("util");
 const client = new textToSpeech.TextToSpeechClient({
     keyFilename: "google-tts-key.json", // Path to service account JSON
 });
-
 module.exports.audioGenerator = async (req, res) => {
    
     try {

@@ -22,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-google-tts-key.json
-config/google-tts-key.json
+# Ignore Google API Key
+backend/google-tts-key.json
