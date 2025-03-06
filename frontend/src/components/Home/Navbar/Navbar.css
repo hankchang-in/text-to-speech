@@ -1,0 +1,26 @@
+.navbarButton{
+    display: flex;
+        margin: 0px;
+        position: absolute;
+        top: 10px;
+        margin: 7px;
+}
+
+.navbarButton li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+}
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    background-color: #65edccd6
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}

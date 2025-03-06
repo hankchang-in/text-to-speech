@@ -1,0 +1,45 @@
+.aboutContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px;  */
+    width: 100vw;  
+    background-image: linear-gradient(to right, #11998E , #38EF7D);   
+
+}
+
+.aboutSubheading{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+}
+p{
+    width: 77%;
+    text-align: center;
+}
+
+.socialMedia{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socialMedia li{
+    list-style: none;
+    display: flex;
+}
+
+.socialMedia img{
+    max-width: 30px;  /* Ya jo bhi size chahiye */
+    height: auto; /* Auto rakho taaki proportion sahi rahe */
+    object-fit: cover;
+    margin: 10px;
+}
